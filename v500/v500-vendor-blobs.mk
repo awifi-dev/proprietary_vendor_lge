@@ -32,6 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
     vendor/lge/v500/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/lge/v500/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
+    vendor/lge/v500/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/v500/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
+    vendor/lge/v500/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
     vendor/lge/v500/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/lge/v500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/v500/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
@@ -166,7 +169,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v500/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/v500/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/v500/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/v500/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/lge/v500/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/lge/v500/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
-    vendor/lge/v500/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so
+    vendor/lge/v500/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
