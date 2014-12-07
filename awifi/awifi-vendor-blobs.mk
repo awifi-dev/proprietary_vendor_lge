@@ -91,9 +91,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
 
-# GPS (V500-cm-11.0)
+# GPS (V510-4.4.4)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
