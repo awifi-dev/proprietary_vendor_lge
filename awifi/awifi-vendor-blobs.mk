@@ -61,7 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
-    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
+    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/awifi/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 # Color convertor (V500-20B)
 PRODUCT_COPY_FILES += \
@@ -148,10 +149,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
-# Perf (V500-20B)
+# Perf (V510-4.4.4)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/awifi/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
 # Qualcomm (flo-cm11)
 PRODUCT_COPY_FILES += \
@@ -173,12 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so
 
-# Thermald (V500-20B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald \
-    vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so
-
-# Time services (V500-20B)
+# Time services (V510-4.4.4)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
