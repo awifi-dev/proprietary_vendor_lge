@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
+    vendor/lge/awifi/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/awifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/awifi/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
