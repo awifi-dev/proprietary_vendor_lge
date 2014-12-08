@@ -13,13 +13,14 @@
 # limitations under the License.
 
 
-# Audio (V500-20B)
+# Audio (flo-cm11)
 PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/awifi/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Bluetooth (FLO-4.4.4)
+# Bluetooth (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
@@ -67,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
-# DRM (FLO-4.4.4)
+# DRM (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -82,7 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# Firmware (FLO-4.4.4)
+# Firmware (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -100,7 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
-# Graphics (FLO-4.4.4)
+# Graphics (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/awifi/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
@@ -122,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
 
-# HDCP (FLO-4.4.4)
+# HDCP (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/awifi/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
@@ -139,7 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
 
-# Keymaster (FLO-4.4.4)
+# Keymaster (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
@@ -152,7 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/awifi/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
 
-# Qualcomm (FLO-4.4.4)
+# Qualcomm (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -164,7 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/awifi/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
 
-# Sensors (FLO-4.4.4)
+# Sensors (flo-cm11)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/awifi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
