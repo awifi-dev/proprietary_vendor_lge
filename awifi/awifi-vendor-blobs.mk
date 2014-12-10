@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-# Audio (flo-cm11)
+# Audio (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/awifi/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
