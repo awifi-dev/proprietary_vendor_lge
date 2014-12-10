@@ -156,7 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
-# Qualcomm (flo-cm11)
+# Qualcomm (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
