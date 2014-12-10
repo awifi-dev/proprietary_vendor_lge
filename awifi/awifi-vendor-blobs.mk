@@ -176,7 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so
 
-# Time services (V510-4.4.4)
+# Time services (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
