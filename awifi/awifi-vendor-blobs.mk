@@ -143,7 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
 
-# Keymaster (flo-cm11)
+# Keymaster (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
