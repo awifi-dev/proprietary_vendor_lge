@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
-# DRM (flo-cm11)
+# DRM (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/awifi/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/awifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/awifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/awifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
