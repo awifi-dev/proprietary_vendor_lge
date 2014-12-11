@@ -40,6 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/awifi/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/awifi/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/lge/awifi/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
