@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/lge/awifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/awifi/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/lge/awifi/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/awifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/awifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
