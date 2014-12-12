@@ -80,9 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
 
-# GPS (V510-4.4.4)
+# GPS (palman-5.0)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/awifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -138,9 +137,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
 
-# Perf (V500-cm12)
+# Other (V500-cm12)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
 # Qualcomm (palman-5.0)
