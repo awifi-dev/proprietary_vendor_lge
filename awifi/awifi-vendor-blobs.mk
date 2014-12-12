@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
-# IRRC (V500-20B)
+# IRRC (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
