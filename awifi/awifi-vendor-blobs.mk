@@ -20,10 +20,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Bluetooth (palman-5.0)
+# Bluetooth (V500-20D)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
+    vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/awifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
 # Camera (V500-cm12)
 PRODUCT_COPY_FILES += \
