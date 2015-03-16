@@ -13,6 +13,13 @@
 # limitations under the License.
 
 
+# Unknow origin (V500-cm12)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
+
 # Audio (palman-5.0)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
@@ -26,9 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/awifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (V500-cm12)
+# Camera (palman-5.0)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/awifi/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/awifi/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
@@ -52,10 +58,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/awifi/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/awifi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/awifi/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
+    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so
+
+# Color convertor (palman-5.0)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
 # DRM (palman-5.0)
 PRODUCT_COPY_FILES += \
@@ -128,12 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
-
-# Other (V500-cm12)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
 # Qualcomm (palman-5.0)
 PRODUCT_COPY_FILES += \
