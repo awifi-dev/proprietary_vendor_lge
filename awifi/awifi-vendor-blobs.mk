@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
-# Audio (palman-5.0)
+# Audio (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/awifi/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/awifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (palman-5.0)
+# Camera (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -63,12 +63,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/awifi/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so
 
-# Color convertor (palman-5.0)
+# Color convertor (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
-# DRM (palman-5.0)
+# DRM (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# Firmware (palman-5.0)
+# Firmware (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
 
-# GPS (palman-5.0)
+# GPS (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
@@ -100,7 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
-# Graphics (palman-5.0)
+# Graphics (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/awifi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
 
-# HDCP (palman-5.0)
+# HDCP (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/awifi/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
@@ -134,17 +134,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
-# IRRC (palman-5.0)
+# IRRC (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
 
-# Qualcomm (palman-5.0)
+# Qualcomm (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/awifi/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/lge/awifi/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/lge/awifi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/awifi/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/lge/awifi/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/awifi/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
@@ -160,7 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so
 
-# Time services (palman-5.0)
+# Time services (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
