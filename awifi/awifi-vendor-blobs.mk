@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Bluetooth (V500-20D)
+# Bluetooth (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
