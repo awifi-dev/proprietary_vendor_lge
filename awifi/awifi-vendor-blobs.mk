@@ -134,10 +134,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
-# IRRC (palman-5.1)
+# IRRC (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
+    vendor/lge/awifi/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
+    vendor/lge/awifi/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
 
 # Qualcomm (palman-5.1)
