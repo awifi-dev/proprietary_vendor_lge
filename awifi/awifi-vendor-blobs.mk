@@ -137,6 +137,8 @@ PRODUCT_COPY_FILES += \
 # IRRC (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
+    vendor/lge/awifi/proprietary/etc/permissions/com.uei.control.xml:system/etc/permissions/com.uei.control.xml \
+    vendor/lge/awifi/proprietary/framework/com.uei.control.jar:system/framework/com.uei.control.jar \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/awifi/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
