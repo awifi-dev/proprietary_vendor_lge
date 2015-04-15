@@ -16,9 +16,7 @@
 # Unknow origin (V500-cm12)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
+    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision
 
 # Audio (palman-5.1)
 PRODUCT_COPY_FILES += \
@@ -137,6 +135,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/awifi/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
     vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
+
+# Other (palman-5.1)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
 # Qualcomm (palman-5.1)
 PRODUCT_COPY_FILES += \
