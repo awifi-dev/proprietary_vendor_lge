@@ -15,7 +15,6 @@
 
 # Unknow origin (V500-cm12)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision
 
 # Audio (palman-5.1)
@@ -31,10 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/awifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
-# Camera (palman-5.1)
+# Camera (V500-30A)
 PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/awifi/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/lge/awifi/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/lge/awifi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/awifi/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/awifi/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -48,12 +47,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+    vendor/lge/awifi/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+    vendor/lge/awifi/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/lge/awifi/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/awifi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/awifi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/awifi/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/awifi/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/lge/awifi/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/awifi/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+    vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/awifi/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so
+    vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Chromatix (V500-30A)
 PRODUCT_COPY_FILES += \
@@ -67,7 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so
 
-# Color convertor (palman-5.1)
+# Color convertor (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
