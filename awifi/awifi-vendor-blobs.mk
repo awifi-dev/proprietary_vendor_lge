@@ -13,10 +13,6 @@
 # limitations under the License.
 
 
-# Unknow origin (V500-cm12)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision
-
 # Audio (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
@@ -58,8 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
-    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
+    vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
 # Chromatix (V500-30A)
 PRODUCT_COPY_FILES += \
@@ -158,6 +153,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
+
+# Perf (V500-30A)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Qualcomm (palman-5.1)
 PRODUCT_COPY_FILES += \
