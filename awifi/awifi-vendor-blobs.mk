@@ -89,6 +89,11 @@ PRODUCT_COPY_FILES += \
 
 # Firmware (palman-5.1)
 PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
