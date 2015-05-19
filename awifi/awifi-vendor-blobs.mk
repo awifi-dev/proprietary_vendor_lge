@@ -173,7 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/awifi/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
 
-# Sensors (flo-cm11)
+# Sensors (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/awifi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
