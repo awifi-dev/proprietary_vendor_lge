@@ -17,6 +17,7 @@
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     LGQRemote \
+    QuickSet \
     QuicksetSDK
 
 # Prebuilt vendor/libs needed for compilation

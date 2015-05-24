@@ -144,7 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
-# IRRC (V500-30A)
+# IRRC (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
     vendor/lge/awifi/proprietary/etc/permissions/com.uei.control.xml:system/etc/permissions/com.uei.control.xml \
