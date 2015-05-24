@@ -32,9 +32,10 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth (V500-30A)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/lge/awifi/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/awifi/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
+    vendor/lge/awifi/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
+    vendor/lge/awifi/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so
 
 # Camera (V500-30A)
 PRODUCT_COPY_FILES += \
