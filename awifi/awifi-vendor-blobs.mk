@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
 # Perf (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Qualcomm (palman-5.1)
