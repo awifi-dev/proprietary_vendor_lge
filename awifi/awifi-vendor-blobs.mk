@@ -87,19 +87,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# Firmware (palman-5.1)
+# DRM firmware (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
     vendor/lge/awifi/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
     vendor/lge/awifi/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     vendor/lge/awifi/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
+    vendor/lge/awifi/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt
 
 # GPS (palman-5.1)
 PRODUCT_COPY_FILES += \
@@ -190,3 +184,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
+
+# VIDC firmware (V500-30A)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/awifi/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
