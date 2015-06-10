@@ -20,6 +20,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
+# Audio firmware (V500-30A)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt
+
 # Bluetooth (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
