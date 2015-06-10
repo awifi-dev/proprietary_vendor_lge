@@ -194,3 +194,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/awifi/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
+
+# Wifi firmware (V500-30A)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
+    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
