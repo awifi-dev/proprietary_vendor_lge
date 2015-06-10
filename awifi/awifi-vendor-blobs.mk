@@ -114,6 +114,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
+# GPS firmware (V500-30A)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b00:system/vendor/firmware/gss.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b01:system/vendor/firmware/gss.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b02:system/vendor/firmware/gss.b02 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b03:system/vendor/firmware/gss.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b04:system/vendor/firmware/gss.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b05:system/vendor/firmware/gss.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b06:system/vendor/firmware/gss.b06 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b07:system/vendor/firmware/gss.b07 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b08:system/vendor/firmware/gss.b08 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b09:system/vendor/firmware/gss.b09 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b10:system/vendor/firmware/gss.b10 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt
+
 # Graphics (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
