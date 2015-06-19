@@ -172,7 +172,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
     vendor/lge/awifi/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
     vendor/lge/awifi/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
-    vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
+    vendor/lge/awifi/proprietary/lib/libjson.so:system/lib/libjson.so \
+    vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so \
+    vendor/lge/awifi/proprietary/lib/libndk_jni.so:system/lib/libndk_jni.so \
+    vendor/lge/awifi/proprietary/lib/libqs.so:system/lib/libqs.so \
+    vendor/lge/awifi/proprietary/lib/librctransport.so:system/lib/librctransport.so \
+    vendor/lge/awifi/proprietary/lib/libserial_port.so:system/lib/libserial_port.so
 
 # Other (palman-5.1)
 PRODUCT_COPY_FILES += \
