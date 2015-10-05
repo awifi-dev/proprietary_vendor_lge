@@ -193,7 +193,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/awifi/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so
+    vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/lge/awifi/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
 
 # Sensors firmware (V500-30A)
 PRODUCT_COPY_FILES += \
