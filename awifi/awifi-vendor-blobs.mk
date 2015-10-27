@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
 # Camera (V500-30A)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/awifi/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/awifi/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/lge/awifi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/awifi/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/awifi/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
