@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Audio firmware (V500-30A)
+# Audio firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
@@ -34,13 +34,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
-# Bluetooth address (V500-30A)
+# Bluetooth address (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/bdaddr_loader:system/bin/bdaddr_loader \
     vendor/lge/awifi/proprietary/lib/libatd_corelib.so:system/lib/libatd_corelib.so \
     vendor/lge/awifi/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so
 
-# Camera (V500-30A)
+# Camera (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/awifi/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
-# Chromatix (V500-30A)
+# Chromatix (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
     vendor/lge/awifi/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
-# GPS firmware (V500-30A)
+# GPS firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/gss.b00:system/vendor/firmware/gss.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/gss.b01:system/vendor/firmware/gss.b01 \
@@ -169,7 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
 
-# Perf (V500-30A)
+# Perf (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
@@ -187,7 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/awifi/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
 
-# Sensors (V500-30A)
+# Sensors (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/awifi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/awifi/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
 
-# Sensors firmware (V500-30A)
+# Sensors firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
@@ -215,7 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
 
-# Video firmware (V500-30A)
+# Video firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
@@ -225,7 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/awifi/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
 
-# WiFi firmware (V500-30A)
+# WiFi firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
