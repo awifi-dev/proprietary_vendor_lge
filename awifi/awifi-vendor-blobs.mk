@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt
 
-# Bluetooth (palman-5.1)
+# Bluetooth (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
@@ -82,12 +82,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so
 
-# Color convertor (palman-5.1)
+# Color convertor (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
-# DRM (palman-5.1)
+# DRM (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -99,15 +99,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/awifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/awifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# DRM firmware (palman-5.1)
+# DRM firmware (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/lge/awifi/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt
+    vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
+    vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt
 
 # GPS (palman-5.1)
 PRODUCT_COPY_FILES += \
@@ -135,8 +136,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
     vendor/lge/awifi/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt
 
-# Graphics (palman-5.1)
+# Graphics (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/awifi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/awifi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/awifi/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -154,11 +157,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/awifi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/awifi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lge/awifi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
+    vendor/lge/awifi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
-# HDCP (palman-5.1)
+# HDCP (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/awifi/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
@@ -175,7 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# Qualcomm (palman-5.1)
+# Qualcomm (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
