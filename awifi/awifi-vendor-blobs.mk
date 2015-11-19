@@ -210,11 +210,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
 
-# Time services (palman-5.1)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/awifi/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so
-
 # Video firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
