@@ -223,10 +223,10 @@ PRODUCT_COPY_FILES += \
 
 # WiFi firmware (V500-30B)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
-    vendor/lge/awifi/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
