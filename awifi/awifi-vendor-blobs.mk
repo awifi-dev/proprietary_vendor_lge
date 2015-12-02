@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth (flo-6.0-MRA58V)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
 # Camera (V500-30B)
