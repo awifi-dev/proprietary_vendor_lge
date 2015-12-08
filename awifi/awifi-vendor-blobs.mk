@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
     vendor/lge/awifi/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt
 
-# Bluetooth (flo-6.0-MRA58V)
+# Bluetooth (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
@@ -76,12 +76,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
     vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so
 
-# Color convertor (flo-6.0-MRA58V)
+# Color convertor (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
-# DRM (flo-6.0-MRA58V)
+# DRM (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# DRM firmware (flo-6.0-MRA58V)
+# DRM firmware (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
@@ -151,7 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/awifi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
-# HDCP (flo-6.0-MRA58V)
+# HDCP (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
     vendor/lge/awifi/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
@@ -174,7 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# Qualcomm (flo-6.0-MRA58V)
+# Qualcomm (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
