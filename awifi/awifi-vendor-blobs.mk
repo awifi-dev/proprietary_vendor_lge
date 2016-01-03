@@ -104,15 +104,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt
 
-# GPS (palman-5.1)
+# GPS (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/awifi/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/lge/awifi/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/awifi/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
-    vendor/lge/awifi/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/lge/awifi/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/awifi/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
-    vendor/lge/awifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
+    vendor/lge/awifi/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/lge/awifi/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so
 
 # GPS firmware (V500-30B)
 PRODUCT_COPY_FILES += \
@@ -177,8 +181,12 @@ PRODUCT_COPY_FILES += \
 # Qualcomm (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/lge/awifi/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/awifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/awifi/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/lge/awifi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/awifi/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/lge/awifi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/awifi/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/lge/awifi/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/awifi/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
