@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -165,6 +165,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt
+
+# IRRC (palman-5.1)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/bin/irrcServer:system/bin/irrcServer \
+    vendor/lge/awifi/proprietary/lib/libirrc.so:system/lib/libirrc.so \
+    vendor/lge/awifi/proprietary/lib/libirrcClient.so:system/lib/libirrcClient.so \
+    vendor/lge/awifi/proprietary/lib/libirrcJni.so:system/lib/libirrcJni.so \
+    vendor/lge/awifi/proprietary/lib/liblgewg.so:system/lib/liblgewg.so
 
 # Media (TheMuppets Samsung msm8960-common)
 PRODUCT_COPY_FILES += \
