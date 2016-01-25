@@ -68,6 +68,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
 
+# DivX (V500-30B)
+PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/lge/awifi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
+
 # DRM (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -166,12 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/awifi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/awifi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
-
-# Media (TheMuppets Samsung msm8960-common)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/lge/awifi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/awifi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
 # Perf (V500-30B)
 PRODUCT_COPY_FILES += \
