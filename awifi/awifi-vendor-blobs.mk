@@ -20,16 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Audio firmware (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
-    vendor/lge/awifi/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt
-
 # Bluetooth (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
@@ -38,6 +28,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/awifi/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_default_video.so:system/lib/libchromatix_s5k4e5ya_default_video.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
+    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so \
     vendor/lge/awifi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/awifi/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/awifi/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -64,18 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
-# Chromatix (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_default_video.so:system/lib/libchromatix_s5k4e5ya_default_video.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
-    vendor/lge/awifi/proprietary/lib/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so
-
 # Color convertor (razor-mmb29k)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
@@ -96,8 +83,49 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# DRM firmware (V500-30B)
+# Firmware (V500-30B)
 PRODUCT_COPY_FILES += \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/lge/awifi/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
+    vendor/lge/awifi/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b00:system/vendor/firmware/gss.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b01:system/vendor/firmware/gss.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b02:system/vendor/firmware/gss.b02 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b03:system/vendor/firmware/gss.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b04:system/vendor/firmware/gss.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b05:system/vendor/firmware/gss.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b06:system/vendor/firmware/gss.b06 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b07:system/vendor/firmware/gss.b07 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b08:system/vendor/firmware/gss.b08 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b09:system/vendor/firmware/gss.b09 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b10:system/vendor/firmware/gss.b10 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
+    vendor/lge/awifi/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b04:system/vendor/firmware/q6.b04 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b05:system/vendor/firmware/q6.b05 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.b06:system/vendor/firmware/q6.b06 \
+    vendor/lge/awifi/proprietary/vendor/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
@@ -117,22 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so
-
-# GPS firmware (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b00:system/vendor/firmware/gss.b00 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b01:system/vendor/firmware/gss.b01 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b02:system/vendor/firmware/gss.b02 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b03:system/vendor/firmware/gss.b03 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b04:system/vendor/firmware/gss.b04 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b05:system/vendor/firmware/gss.b05 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b06:system/vendor/firmware/gss.b06 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b07:system/vendor/firmware/gss.b07 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b08:system/vendor/firmware/gss.b08 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b09:system/vendor/firmware/gss.b09 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b10:system/vendor/firmware/gss.b10 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
-    vendor/lge/awifi/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt
 
 # Graphics (qcom-10Nov15)
 PRODUCT_COPY_FILES += \
@@ -192,36 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/awifi/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so
 
-# Sensors firmware (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
-    vendor/lge/awifi/proprietary/vendor/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt
-
 # Thermal (palman-5.1)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/thermald:system/bin/thermald
-
-# Video firmware (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/lge/awifi/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/lge/awifi/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf
-
-# WiFi firmware (V500-30B)
-PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/lge/awifi/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
