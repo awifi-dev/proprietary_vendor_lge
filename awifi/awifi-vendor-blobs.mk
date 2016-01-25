@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/lge/awifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
-# DRM firmware (razor-mmb29k)
+# DRM firmware (V500-30B)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
