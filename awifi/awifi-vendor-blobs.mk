@@ -13,9 +13,8 @@
 # limitations under the License.
 
 
-# Audio (palman-5.1)
+# Audio (V500-30B)
 PRODUCT_COPY_FILES += \
-    vendor/lge/awifi/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/awifi/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
