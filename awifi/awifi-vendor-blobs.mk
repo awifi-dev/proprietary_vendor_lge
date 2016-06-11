@@ -151,7 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so
 
-# Graphics (qcom-10Nov15)
+# Graphics (qcom-24May16)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
