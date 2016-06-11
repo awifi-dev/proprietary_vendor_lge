@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/awifi/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
-# Bluetooth (razor-mmb29k)
+# Bluetooth (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init
 
@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/awifi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so
 
-# Color convertor (razor-mmb29k)
+# Color convertor (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/awifi/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/lge/awifi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
-# DRM (razor-mmb29k)
+# DRM (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/awifi/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -137,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
     vendor/lge/awifi/proprietary/vendor/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt
 
-# GPS (razor-mmb29k)
+# GPS (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/awifi/proprietary/etc/gps.conf:system/etc/gps.conf \
@@ -151,10 +151,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/awifi/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so
 
-# Graphics (qcom-10Nov15)
+# Graphics firmware (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/lge/awifi/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
+
+# Graphics (qcom-10Nov15)
+PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/awifi/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/awifi/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -178,7 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/lge/awifi/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
-# Qualcomm (razor-mmb29k)
+# Qualcomm (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/awifi/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -194,7 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/lge/awifi/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so
 
-# Sensors (razor-mmb29k)
+# Sensors (razor-mmb30m)
 PRODUCT_COPY_FILES += \
     vendor/lge/awifi/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/awifi/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
